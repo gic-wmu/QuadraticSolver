@@ -1,0 +1,28 @@
+Copywrite (c)
+2/15/2017
+Greg Ostroy
+
+	This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+ 	You should have received a copy of the GNU General Public License along
+with this program; if not
+
+		QuadraticSolver
+	An application to solve quadratic equations. The user inputs the 3 coefficients which should be positive 
+numbers. The application outputs the real roots of the equation, if any exist. If the roots are imaginary or outside the 
+range of a float type, the user is notified. 
+	The executable is labeled QuadApp. Navigate to the release folder to find it.
+
+References used durining developement
+	https://www.gnu.org/licenses/gpl-howto.en.html
+	http://java2s.com/Tutorials/C/math.h/C_isnan_function_tells_if_a_value_is_a_number.htm
+	https://www.tutorialspoint.com/c_standard_library/c_function_sscanf.htm
+	https://www.tutorialspoint.com/c_standard_library/math_h.htm
