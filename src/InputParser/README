@@ -1,7 +1,0 @@
-CS4900 
-2/15/2017
-Greg Ostroy
-
-This directory contains the function that parses string input to get coefficients for the quadratic solver, and validates them.
-It also contains unit tests for the parser function.
-The commnad to run the unit tests is '$ make runParser'
