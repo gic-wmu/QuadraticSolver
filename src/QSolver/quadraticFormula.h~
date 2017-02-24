@@ -1,0 +1,10 @@
+/*CS4900 
+2/15/2017
+Greg Ostroy
+
+Declaration for the function that implements the quadratic formula for a quadratic solver
+
+Copyright (C) 2017 Greg Ostroy see full notice in [installation path]/QuadraticSolver/doc/README
+*/
+
+void quadraticFormula(double, double, double, float*, float*);

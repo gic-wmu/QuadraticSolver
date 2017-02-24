@@ -1,0 +1,7 @@
+Root1 is 5.000000e+00 + or - 5.960464e-07
+Root2 is 3.300000e+00 + or - 3.933906e-07
+The root is 5.000000e+00 + or - 5.960464e-07
+Root one is not a number or is outside the range a float type can hold
+Root2 is 8.662000e+00 + or - 1.032591e-06
+Root1 is 3.650000e-02 + or - 4.351139e-09
+Root two is not a number or is outside the range a float type can hold

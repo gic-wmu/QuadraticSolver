@@ -1,0 +1,15 @@
+/*CS4900 
+2/15/2017
+Greg Ostroy
+
+Test for the function that implements the quadratic formula for a quadratic solver
+*/
+
+#include <stdlib.h>
+#include "../Cunit/cunit.h" 
+#include "../SquareRt/squareRoot.h"
+
+int main()
+{
+	
+}

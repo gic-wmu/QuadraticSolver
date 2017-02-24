@@ -1,0 +1,6 @@
+Welcome.
+If you would like to solve a quadratic equation type 'y', or type any key to quit.
+For the quadratic equation ax^2 + bx +c =0, please enter the values for coefficients a,b,and c, as three white space separated positive numbers
+Root1 is 3.053939e+00 + or - 3.640579e-07
+Root2 is 1.146061e+00 + or - 1.366211e-07
+If you would like to solve a quadratic equation type 'y', or type any key to quit.

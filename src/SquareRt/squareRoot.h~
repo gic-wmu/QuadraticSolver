@@ -1,0 +1,10 @@
+/*CS4900 
+2/15/2017
+Greg Ostroy
+
+Declaration for the function that computes the square root portion of the quadratic equation for a quadratic solver
+
+Copyright (C) 2017 Greg Ostroy see full notice in [installation path]/QuadraticSolver/doc/README
+*/
+
+int squareRoot(double,double,double,double*);

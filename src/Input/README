@@ -1,0 +1,7 @@
+CS4900 
+2/15/2017
+Greg Ostroy
+
+This folder containes the Parser class for the Quadratic solver and the unit tests for it.
+The command to run the unit tests is '$ make runPrinter'
+

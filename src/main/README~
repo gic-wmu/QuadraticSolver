@@ -1,0 +1,6 @@
+CS4900 
+2/15/2017
+Greg Ostroy
+
+This direcotry contains the main entry point for the quadratic solver application. From this directory you can run all unit tests.
+The command to compile and run all unit tests is '$ make runTests'
