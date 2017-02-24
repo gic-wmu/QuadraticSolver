@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 compQuadApp:
 	gcc QSmain.c "../Validator/validator.c" "../Input/parser.c"  "../Printer/printer.c"  "../QSolver/quadraticFormula.c" "../SquareRt/squareRoot.c" -o QuadSolver -Wall -pedantic -std=c99 -lm
 
@@ -47,6 +48,22 @@ runAllTests: compUnitTests compQuadApp
 	./QuadSolver < autoInput_9.txt > auto_output.txt;diff "correctOutput_9.txt" "auto_output.txt"
 	./QuadSolver < autoInput_10.txt > auto_output.txt;diff "correctOutput_10.txt" "auto_output.txt"
 	./QuadSolver < autoInput_11.txt > auto_output.txt;diff "correctOutput_11.txt" "auto_output.txt"
+=======
+quadApp:
+	gcc QSmain.c "../InputParser/parser.c"  "../Printer/printer.c"  "../QSolver/quadraticFormula.c" "../SquareRt/squareRoot.c" -o QuadSolver -Wall -pedantic -std=c99 -lm
+
+compTests:
+	cd ../Printer; make compPrinter
+	cd ../QSolver;make compQuad
+	cd ../SquareRt; make compSqrt
+	cd ../InputParser;make compParser
+
+runTests: compTests
+	../Printer/PrinterTest
+	../QSolver/QuadTest
+	../SquareRt/SqrtTest
+	../InputParser/ParserTest
+>>>>>>> d0cb8795e5f40a91fe5bda5399cb6ff9f2c28e3b
 
 clean:
 	-rm -f core *.log *.o *.exe
