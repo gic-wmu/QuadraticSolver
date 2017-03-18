@@ -2,7 +2,7 @@
  The global constants for cunit and cunit_init(),
  which should be called befoer using the unit test 
 macros in cunit.h
-authors John Capenga, Greg Ostroy*/
+authors John Kapenga, Greg Ostroy*/
 
 #include <stdio.h>
 #include <float.h>

@@ -1,0 +1,15 @@
+This contains spikes made during the developement of the Quad Solver. It has the following spikes;
+One that finds the floating point epsilon for this machine.
+One that computes various floating point numbers.
+One that parses numerical input through sscanf().
+One that takes input from scanf().
+One that demonstrates opening multiple shells vs using a single shell sequentially with a make script.
+
+You can run the spike programs with the following commands;
+
+$ make whateps ---compiles and runs spike to find machine epsilon.
+$ make inputSpike---compiles and runs input spike.
+$ make parse--- compiles and runs the input parsing spike.
+$ make floating--- compiles and runs the floating point spkie.
+$ make makeSpike--- demonstrates opening multiple shells using a single shell sequentially
+$ make all --- compiles and runs all spikes

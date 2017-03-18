@@ -1,5 +1,7 @@
 # include <stdio.h>
 # include <stdlib.h>
+
+//takes input and prints it back
 int main()
 
 {

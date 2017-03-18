@@ -19,8 +19,20 @@ with this program; if not
 	An application to solve quadratic equations. The user inputs the 3 coefficients which should be positive 
 numbers. The application outputs the real roots of the equation, if any exist. If the roots are imaginary or outside the 
 range of a float type, the user is notified. 
-	The executable is labeled QuadApp. Navigate to the release folder to find it.
 	Unit tests for the entire application are in the /src/Main folder.
+	All source code is in the src file.
+	Specific unit test are in the same foder as the module they test.
+	Licenses are in the folder containing this readme.
+
+		System Requirements
+	This application requirs a GNU Linux operating system such as Ubuntu or Mint. This application runs from a command line interface.
+
+		Running the Quadratic solver
+	To run the solver, navigate to the folder in which you unzipped the tar file containing the Quad Solver application and type the command 
+$ ./QuadSolver.
+
+		Maintenance 
+	No future releases are planned.
 
 References used durining developement
 	https://www.gnu.org/licenses/gpl-howto.en.html

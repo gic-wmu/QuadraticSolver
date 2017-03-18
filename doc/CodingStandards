@@ -1,11 +1,12 @@
 Coding standards for QuadSolver
 
 The application will be stored in a git repository at https://github.com/gic-wmu/QuadraticSolver.git.
-Greg Ostroy has sole permission to update the files.
+Greg Ostroy has sole permission to update the files. Since Greg Ostroy is the sole contributer to the repository, all pulls and pushes are done to and from the master branch.
 
 The compiler will be gcc with the c99 standard
 
 Variables, function names, and source files will be named using camelcase. Names should be meaningful.
 
-Executables and filders will be capitalized.
+Executables and folders will be capitalized.
 
+All modules and all functions within modules shall include explanatory comments. For functions this shall include parameters passed to the function and what it returns, if anything.

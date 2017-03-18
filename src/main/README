@@ -6,3 +6,5 @@ This direcotry contains the main entry point for the quadratic solver applicatio
 The command to compile and run all unit tests is '$ make runUnitTests'
 The command to compile and run system tests is '$ make runQuadTests'
 The command to compile and run all tests is 'make runAllTests'
+
+The file log.txt logs the progress of the application whenever it is run.
