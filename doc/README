@@ -23,6 +23,7 @@ range of a float type, the user is notified.
 	All source code is in the src file.
 	Specific unit test are in the same foder as the module they test.
 	Licenses are in the folder containing this readme.
+	The project can be foud at https://github.com/gic-wmu/QuadraticSolver
 
 		System Requirements
 	This application requirs a GNU Linux operating system such as Ubuntu or Mint. This application runs from a command line interface.
