@@ -10,3 +10,7 @@ Variables, function names, and source files will be named using camelcase. Names
 Executables and folders will be capitalized.
 
 All modules and all functions within modules shall include explanatory comments. For functions this shall include parameters passed to the function and what it returns, if anything.
+
+Unit Test shall be kept in the same directory as their associated source files. The macros found in Cunit/cunit.h will be used for assertions. All unit test will be run after any updates.
+
+A full system test will be done after every update.

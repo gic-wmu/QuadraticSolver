@@ -18,7 +18,7 @@ with this program; if not
 		QuadraticSolver
 	An application to solve quadratic equations. The user inputs the 3 coefficients which should be positive 
 numbers. The application outputs the real roots of the equation, if any exist. If the roots are imaginary or outside the 
-range of a float type, the user is notified. 
+range of a float type, the user is notified. Real roots are displayed with up to 6 digits of precision plus or minus the absolute error.
 	Unit tests for the entire application are in the /src/Main folder.
 	All source code is in the src file.
 	Specific unit test are in the same foder as the module they test.
@@ -36,6 +36,7 @@ $ ./QuadSolver.
 	No future releases are planned.
 
 References used durining developement
+	http://steve.hollasch.net/cgindex/coding/ieeefloat.html
 	https://www.gnu.org/licenses/gpl-howto.en.html
 	http://java2s.com/Tutorials/C/math.h/C_isnan_function_tells_if_a_value_is_a_number.htm
 	https://www.tutorialspoint.com/c_standard_library/c_function_sscanf.htm
